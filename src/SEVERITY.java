@@ -1,0 +1,5 @@
+
+public enum SEVERITY {
+	CRITICAL, MAJOR, MINOR
+
+}
