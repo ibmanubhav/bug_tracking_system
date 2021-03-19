@@ -8,6 +8,7 @@ public class BugInfo {
 	private String bugtype;
 	private BUGSTATUS bugstatus;
 	private int projectid;
+	private String x;
 	// private BUGSTATUS BUGSTATUS;
 
 	BugInfo(int bugid, String bugname, String bugpriority, String projectname, String buglocation, String bugtype,

@@ -14,6 +14,9 @@ public class Employee {
 		this.role=role;
 
 	}
+	public Employee() {
+		
+	}
 
 	void Status() {
 		System.out.println("");

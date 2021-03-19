@@ -15,13 +15,17 @@ public class Manager extends Employee {
 		this.projectid = projectid;
 
 	}
+	public Manager() {
+		
+	}
 
-	void finalStatus() {
+
+	public void finalStatus() {
 
 		System.out.println(getReviewstatus());
 	}
 
-	void verifyBugStatus() {
+	public void verifyBugStatus() {
 		if (testerstatus == BUGSTATUS.OPEN && developerstatus == BUGSTATUS.FIXED) {
 			setReviewstatus(REVIEWEDSTATUS.APPROVED);
 		} else {
